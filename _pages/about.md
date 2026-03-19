@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+# profile:
+#   align: right
+#   image: 
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p>555 your office number</p>
+#     <p>123 your address street</p>
+#     <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false #true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false # true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+[The Computer Vision and Machine Learning (CVML) Laboratory](https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab), housed within [the University at Albany's College of Nanotechnology, Science, and Engineering](https://www.albany.edu/cnse), is a leading research group specializing in computer vision, machine learning, and video analytics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Our research is dedicated to advancing the mathematical foundations and algorithmic development of machine learning and deep learning, particularly for the analysis of visual imagery. Through interdisciplinary collaboration, we drive forward comprehensive initiatives, leveraging expertise from diverse domains.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Funding has been provided by the National Science Foundation (NSF), the Defense Advance Program Research Agency (DARPA) and the National Institute of Justice (NIJ), the Intelligence Advanced Research Projects Activity (IARPA), Inventec Corporation, and several UAlbany seed funds. We also appreciate the generous donations from NVIDIA.
+---
+**Join the Team**
+Are you passionate about artificial intelligence (AI), computer vision and deep learning? 
+Our lab is looking for highly motivated, dedicated individuals to dive into cutting-edge research and contribute to groundbreaking advancements in these fields.
+Please reach out to our Co-directors, [Ming-Ching Chang](https://www.albany.edu/computer-science/faculty/ming-ching-chang) and [Xin Li](https://www.albany.edu/computer-science/faculty/xin-li), for more information on opportunities within our lab.
