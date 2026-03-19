@@ -55,6 +55,14 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+    
+    <!-- Join the Team -->
+    {% if page.join_team and page.join_team.enabled %}
+      <h2>{{ page.join_team.title | default: "Join the Team" }}</h2>
+      <div class="join-team">
+        {{ page.join_team.text | markdownify }}
+      </div>
+    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
