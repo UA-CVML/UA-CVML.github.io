@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Themes https://github.com/anuraghazra/github-readme-stats/blob/master/themes/index.js
+ * Themes
  ******************************************************************************/
 @use "variables" as v;
 @use "sass:color";
@@ -192,41 +192,41 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #000000;
-  --global-code-bg-color: #0b0b0b;
-  --global-text-color: #00ead3;
-  --global-text-color-light: #ff449f;
-  --global-theme-color: #00ead3;
-  --global-hover-color: #ff449f;
-  --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #111111;
-  --global-footer-text-color: #00ead3;
-  --global-footer-link-color: #00ead3;
-  --global-distill-app-color: #ff449f;
-  --global-divider-color: rgba(255, 255, 255, 0.65);
-  --global-card-bg-color: #000000;
+  --global-bg-color: #141321;
+  --global-code-bg-color: #1b1a2b;
+  --global-text-color: #a9fef7;
+  --global-text-color-light: #7eece4;
+  --global-theme-color: #fe428e;
+  --global-hover-color: #f8d847;
+  --global-hover-text-color: #141321;
+  --global-footer-bg-color: #1b1a2b;
+  --global-footer-text-color: #a9fef7;
+  --global-footer-link-color: #fe428e;
+  --global-distill-app-color: #7eece4;
+  --global-divider-color: rgba(248, 216, 71, 0.25);
+  --global-card-bg-color: #1a1828;
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", $space: rgb)},
     #{color.channel(v.$white-color, "green", $space: rgb)},
     #{color.channel(v.$white-color, "blue", $space: rgb)},
     0.5
   );
-  --global-back-to-top-text-color: #000000;
-  --global-newsletter-bg-color: #111111;
-  --global-newsletter-text-color: #00ead3;
+  --global-back-to-top-text-color: #141321;
+  --global-newsletter-bg-color: #1b1a2b;
+  --global-newsletter-text-color: #a9fef7;
 
-  --global-tip-block: #00ead3;
-  --global-tip-block-bg: #003c37;
-  --global-tip-block-text: #cffff8;
-  --global-tip-block-title: #00ead3;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #6b5900;
-  --global-warning-block-text: #fff2af;
-  --global-warning-block-title: #fff8d8;
-  --global-danger-block: #ff449f;
-  --global-danger-block-bg: #4d0f2f;
-  --global-danger-block-text: #ffd3e9;
-  --global-danger-block-title: #ff449f;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #215d42;
+  --global-tip-block-text: #beffe2;
+  --global-tip-block-title: #e2f5ec;
+  --global-warning-block: #f8d847;
+  --global-warning-block-bg: #5f4e00;
+  --global-warning-block-text: #fff7be;
+  --global-warning-block-title: #f8d847;
+  --global-danger-block: #fe428e;
+  --global-danger-block-bg: #5a1433;
+  --global-danger-block-text: #ffd3e5;
+  --global-danger-block-title: #fe428e;
 
   .only-light {
     display: none;

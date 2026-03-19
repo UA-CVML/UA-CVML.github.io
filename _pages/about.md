@@ -32,8 +32,11 @@ latest_posts:
 Our research is dedicated to advancing the mathematical foundations and algorithmic development of machine learning and deep learning, particularly for the analysis of visual imagery. Through interdisciplinary collaboration, we drive forward comprehensive initiatives, leveraging expertise from diverse domains.
 
 Funding has been provided by the National Science Foundation (NSF), the Defense Advance Program Research Agency (DARPA) and the National Institute of Justice (NIJ), the Intelligence Advanced Research Projects Activity (IARPA), Inventec Corporation, and several UAlbany seed funds. We also appreciate the generous donations from NVIDIA.
+
 ---
+
 **Join the Team**
+
 Are you passionate about artificial intelligence (AI), computer vision and deep learning? 
 Our lab is looking for highly motivated, dedicated individuals to dive into cutting-edge research and contribute to groundbreaking advancements in these fields.
 Please reach out to our Co-directors, [Ming-Ching Chang](https://www.albany.edu/computer-science/faculty/ming-ching-chang) and [Xin Li](https://www.albany.edu/computer-science/faculty/xin-li), for more information on opportunities within our lab.
