@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Yuwei Chen
+description: PhD candidate, Computer Science
+img:
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+importance: 5
+category: #work
 ---
 
 Every project has a beautiful feature showcase page.

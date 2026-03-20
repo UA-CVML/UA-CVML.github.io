@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Zhenfei Zhang
+description: PhD candidate, Computer Science
 img:
-importance: 4
-category: fun
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+importance: 6
+category: #work, fun
 ---
 
 Every project has a beautiful feature showcase page.

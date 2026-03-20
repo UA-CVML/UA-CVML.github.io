@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Abhineet Pandey
+description: PhD student
+img: #assets/img/7.jpg
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 importance: 3
-category: work
+category: #work
 ---
 
 Every project has a beautiful feature showcase page.

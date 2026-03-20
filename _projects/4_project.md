@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Rui Wang
+description: PhD candidate, Computer Science
 img:
-importance: 3
-category: fun
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+importance: 4
+category: #work
 ---
 
 Every project has a beautiful feature showcase page.

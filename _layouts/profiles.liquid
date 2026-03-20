@@ -6,7 +6,7 @@ layout: page
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+        <div class="profile profiles-profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% if profile.image_circular %}
@@ -15,21 +15,36 @@ layout: page
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
             {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% if profile.redirect %}
+              <a href="{{ profile.redirect }}" target="_blank" rel="noopener noreferrer">
+                {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+              </a>
+            {% else %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% endif %}
           {% endif %}
           {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
+            {% if profile.redirect %}
+              <div class="more-info">
+                <a href="{{ profile.redirect }}" target="_blank" rel="noopener noreferrer">
+                  {{ profile.more_info }}
+                </a>
+              </div>
+            {% else %}
+              <div class="more-info">{{ profile.more_info }}</div>
+            {% endif %}
           {% endif %}
         </div>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
+      <div class="clearfix">
+        {% if profile.content %}
+          {% assign content_file = profile.content | strip %}
+          {% capture profile_content %}{% include {{ content_file }} %}{% endcapture %}
+          {{ profile_content | markdownify }}
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
       {% endfor %}
     {% endif %}
   </article>

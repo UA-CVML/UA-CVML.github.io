@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: An Yu
+description: PhD student
+img: assets/img/people/anyu57635309-8bf0-4890-a4ee-6e04a859d337.png
 importance: 2
-category: work
-giscus_comments: true
+category:
+related_publications: true
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Ting Yu Tsai
+description: PhD student
+img: assets/img/people/tingtsai97caf364-4567-4507-8450-519798ec2da0.png
 importance: 1
-category: work
+category:
 related_publications: true
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 ---
 
 Every project has a beautiful feature showcase page.

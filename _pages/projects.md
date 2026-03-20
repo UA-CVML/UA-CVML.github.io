@@ -1,65 +1,51 @@
 ---
-layout: page
-title: Projects
+layout: profiles
 permalink: /projects/
+title: PROJECTS
 description:
 nav: true
-nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+nav_order: 4
+
+profiles:
+  - align: right
+    image: project/logo_rat.png
+    content: project_profiles/about_rat.md
+    image_circular: false
+    more_info: >
+      Rat Seizure Detection &amp; Classification
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+
+  - align: left
+    image: project/logo_skeleton.png
+    content: project_profiles/about_skeleton.md
+    image_circular: false
+    more_info: >
+      Skeleton-based Human Action Recognition
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+
+  - align: right
+    image: project/logo_obtracking.png
+    content: project_profiles/about_obtracking.md
+    image_circular: false
+    more_info: >
+      Single & Multiple Object Tracking
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+
+  - align: left
+    image:
+    content: project_profiles/about_multitracking.md
+    image_circular: false
+    more_info: >
+      UA-DETRAC Benchmark Dataset for Multi-Object Tracking
+    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+
+
+  - align: right
+    image:
+    content: project_profiles/about_cimd.md
+    image_circular: false
+    more_info: >
+      Challenging Image Manipulation Detection (CIMD)
+    redirect: https://arxiv.org/pdf/2311.14218
+
 ---
-
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>

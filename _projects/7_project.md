@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
+title: Dr. Chuanbo Hu
+description: Postdoctoral Associate
+img:
+redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+importance: 7
+category: #work, fun
 related_publications: true
 ---
 
