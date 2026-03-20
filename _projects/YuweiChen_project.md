@@ -3,7 +3,7 @@ layout: page
 title: Yuwei Chen
 description: PhD candidate, Computer Science
 img:
-redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+redirect:
 importance: 5
 category: Lab Members
 ---

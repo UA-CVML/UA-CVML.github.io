@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Rui Wang
-description: PhD candidate, Computer Science
-img:
-redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
-importance: 4
+title: Ting Yu Tsai
+description: PhD student
+img: assets/img/people/tingtsai97caf364-4567-4507-8450-519798ec2da0.png
+importance: 1
 category: Lab Members
+related_publications: true
+redirect: https://github.com/tiffany9056 # https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 ---
 
 Every project has a beautiful feature showcase page.
@@ -44,8 +45,8 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">

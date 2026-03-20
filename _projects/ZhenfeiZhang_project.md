@@ -3,7 +3,7 @@ layout: page
 title: Zhenfei Zhang
 description: PhD candidate, Computer Science
 img:
-redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+redirect:
 importance: 6
 category: Lab Members
 ---

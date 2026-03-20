@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ming-Ching Chang
+title: Xin Li
 description: Professor
 img: assets/img/people/XinLi_2023.jpg
 importance: 2

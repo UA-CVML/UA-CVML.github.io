@@ -21,24 +21,7 @@ profiles:
     image_circular: false
     more_info: >
       Skeleton-based Human Action Recognition
-    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
-
-  - align: right
-    image: project/logo_obtracking.png
-    content: project_profiles/about_obtracking.md
-    image_circular: false
-    more_info: >
-      Single & Multiple Object Tracking
-    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
-
-  - align: left
-    image:
-    content: project_profiles/about_multitracking.md
-    image_circular: false
-    more_info: >
-      UA-DETRAC Benchmark Dataset for Multi-Object Tracking
-    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
-
+    redirect:
 
   - align: right
     image:
@@ -47,5 +30,21 @@ profiles:
     more_info: >
       Challenging Image Manipulation Detection (CIMD)
     redirect: https://arxiv.org/pdf/2311.14218
+    
+  - align: left
+    image:
+    content: project_profiles/about_multitracking.md
+    image_circular: false
+    more_info: >
+      UA-DETRAC Benchmark Dataset for Multi-Object Tracking
+    redirect:
+
+  - align: right
+    image: project/logo_obtracking.png
+    content: project_profiles/about_obtracking.md
+    image_circular: false
+    more_info: >
+      Single & Multiple Object Tracking
+    redirect:
 
 ---
