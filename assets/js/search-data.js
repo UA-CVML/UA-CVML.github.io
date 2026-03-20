@@ -46,48 +46,48 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-ting-yu-tsai",
-          title: 'Ting Yu Tsai',
+          section: "News",},{id: "projects-abhineet-pandey",
+          title: 'Abhineet Pandey',
           description: "PhD student",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/Abhineet_project/";
             },},{id: "projects-an-yu",
           title: 'An Yu',
           description: "PhD student",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-abhineet-pandey",
-          title: 'Abhineet Pandey',
-          description: "PhD student",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-rui-wang",
-          title: 'Rui Wang',
-          description: "PhD candidate, Computer Science",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-yuwei-chen",
-          title: 'Yuwei Chen',
-          description: "PhD candidate, Computer Science",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-zhenfei-zhang",
-          title: 'Zhenfei Zhang',
-          description: "PhD candidate, Computer Science",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/AnYu_project/";
             },},{id: "projects-dr-chuanbo-hu",
           title: 'Dr. Chuanbo Hu',
           description: "Postdoctoral Associate",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/projects/ChuanboHu_project/";
+            },},{id: "projects-rui-wang",
+          title: 'Rui Wang',
+          description: "PhD candidate, Computer Science",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/RuiWang_project/";
+            },},{id: "projects-ting-yu-tsai",
+          title: 'Ting Yu Tsai',
+          description: "PhD student",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TYT_project/";
+            },},{id: "projects-yuwei-chen",
+          title: 'Yuwei Chen',
+          description: "PhD candidate, Computer Science",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/YuweiChen_project/";
+            },},{id: "projects-zhenfei-zhang",
+          title: 'Zhenfei Zhang',
+          description: "PhD candidate, Computer Science",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ZhenfeiZhang_project/";
             },},{id: "projects-ming-ching-chang",
           title: 'Ming-Ching Chang',
           description: "Associate Professor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mingching_project/";
-            },},{id: "projects-ming-ching-chang",
-          title: 'Ming-Ching Chang',
+            },},{id: "projects-xin-li",
+          title: 'Xin Li',
           description: "Professor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xinli_project/";
