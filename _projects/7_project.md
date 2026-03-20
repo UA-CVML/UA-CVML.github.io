@@ -5,7 +5,7 @@ description: Postdoctoral Associate
 img:
 redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 importance: 7
-category: #work, fun
+category: Lab Members
 related_publications: true
 ---
 

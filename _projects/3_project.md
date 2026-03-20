@@ -5,7 +5,7 @@ description: PhD student
 img: #assets/img/7.jpg
 redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 importance: 3
-category: #work
+category: Lab Members
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Ting Yu Tsai
-description: PhD student
-img: assets/img/people/tingtsai97caf364-4567-4507-8450-519798ec2da0.png
+title: Ming-Ching Chang
+description: Associate Professor
+img: assets/img/people/MingChingChang_19.jpg
 importance: 1
-category: Lab Members
+category: Lab Co-directors
 related_publications: true
-redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+redirect: https://tiffany9056.github.io/
 ---
 
 Every project has a beautiful feature showcase page.

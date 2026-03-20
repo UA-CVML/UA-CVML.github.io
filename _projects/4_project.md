@@ -5,7 +5,7 @@ description: PhD candidate, Computer Science
 img:
 redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 importance: 4
-category: #work
+category: Lab Members
 ---
 
 Every project has a beautiful feature showcase page.
