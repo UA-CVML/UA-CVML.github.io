@@ -1,5 +1,8 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    {% if project.redirect %}
+      <a href="{{ project.redirect }}">
+    {% endif %}
+
     <div class="card h-100 hoverable">
       {% if project.img %}
         {%
@@ -20,6 +23,7 @@
           class="card-img-top"
         %}
       {% endif %}
+
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
@@ -40,5 +44,7 @@
         </div>
       </div>
     </div>
-  </a>
+  {% if project.redirect %}
+    </a>
+  {% endif %}
 </div>

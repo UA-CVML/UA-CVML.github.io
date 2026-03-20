@@ -7,7 +7,7 @@ importance: 2
 category: Lab Members
 related_publications: true
 redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
-giscus_comments: false
+github: https://github.com/CrazyGeG
 ---
 
 Every project has a beautiful feature showcase page.
