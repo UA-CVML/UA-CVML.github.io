@@ -11,8 +11,6 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
-<!-- {% include bib.liquid %} -->
-
 {% include bib_search.liquid %}
 
 <div class="publications">
