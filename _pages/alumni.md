@@ -15,195 +15,114 @@ calendar: false
 
 .alumni-section h2 {
   margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
-.alumni-card {
-  height: 100%;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
-  background-color: var(--global-card-bg-color);
-  padding: 1rem 1.1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+.alumni-list {
+  margin: 0;
+  padding-left: 1.2rem;
 }
 
-.alumni-card h5 {
-  margin-bottom: 0.5rem;
+.alumni-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--global-text-color);
+}
+
+.alumni-list strong {
   color: var(--global-theme-color);
 }
 
-.alumni-card p {
-  margin-bottom: 0.35rem;
-  color: var(--global-text-color);
-  font-size: 0.98rem;
-  line-height: 1.5;
-}
-
-.alumni-card .label {
-  font-weight: 600;
-}
-
-.alumni-note {
+.alumni-list em {
   color: var(--global-text-color-light);
-  font-size: 0.95rem;
 }
 </style>
 
 <div class="alumni-section">
   <h2>Co-Advised Postdoctoral Researchers</h2>
-  <div class="row g-4">
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Dawei Du</h5>
-        <p>Postdoctoral Researcher, CS, SUNY Albany (2017–2019)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-        <p><span class="label">Current position:</span> Kitware Inc., New York, USA</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Longyin Wen</h5>
-        <p>Postdoctoral Researcher, CS, SUNY Albany (2016–2017)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-        <p><span class="label">Current position:</span> JD AI Research, Mountain View, CA, USA</p>
-      </div>
-    </div>
-  </div>
+  <ul class="alumni-list">
+    <li>
+      <strong>Dawei Du</strong>, Postdoctoral Researcher, CS, SUNY Albany (2017–2019), co-advised with Prof. Siwei Lyu.
+      Current position: Kitware Inc., New York, USA.
+    </li>
+    <li>
+      <strong>Longyin Wen</strong>, Postdoctoral Researcher, CS, SUNY Albany (2016–2017), co-advised with Prof. Siwei Lyu.
+      Current position: JD AI Research, Mountain View, CA, USA.
+    </li>
+  </ul>
 </div>
 
 <div class="alumni-section">
   <h2>Ph.D. Graduates</h2>
-  <div class="row g-4">
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Yi Wei</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2016–2021)</p>
-        <p><span class="label">Thesis:</span> <em>Understanding Complex Human Activities in Videos</em></p>
-        <p><span class="label">Current position:</span> Samsung Research, Mountain View, CA, USA</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Shengkun Li</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2016–2020)</p>
-        <p><span class="label">Thesis:</span> <em>Learning Graphs for Object Tracking and Counting</em></p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Yuezun Li</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2015–2020)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-        <p><span class="label">Thesis:</span> <em>Detecting and Protecting Against AI-Synthesis Faces</em></p>
-        <p><span class="label">Current position:</span> Assistant Professor, Ocean University of China</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Wenbo Li</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2015–2019)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-        <p><span class="label">Thesis:</span> <em>Pose-Based Human Activity Recognition: Past, Present and Future</em></p>
-        <p><span class="label">Current position:</span> Samsung Research, Mountain View, CA, USA</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Yueming Yang</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2013–2016)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-        <p><span class="label">Thesis:</span> <em>Efficient Large-Scale Photometric Reconstruction Using Divide-Conquer and Fusion</em></p>
-        <p><span class="label">Current position:</span> Assistant Professor, Baldwin Wallace University</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Xin Wang</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2014–2015)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-        <p><span class="label">Thesis:</span> <em>Topic Analysis and Application Using Nonnegative Matrix Factorization (NMF)</em></p>
-        <p><span class="label">Current position:</span> CuraCloud Corporation, Seattle, WA, USA</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Hadi Ghahremannezhad</h5>
-        <p>Ph.D., NJIT (2021)</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Mehrded Mizaei</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2020)</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Amanda Danko</h5>
-        <p>Ph.D., Computer Science, SUNY Albany (2014–2015)</p>
-      </div>
-    </div>
-  </div>
+  <ul class="alumni-list">
+    <li>
+      <strong>Yi Wei</strong>, Ph.D., Computer Science, SUNY Albany (2016–2021).
+      Thesis: <em>Understanding Complex Human Activities in Videos</em>.
+      Current position: Samsung Research, Mountain View, CA, USA.
+    </li>
+    <li>
+      <strong>Shengkun Li</strong>, Ph.D., Computer Science, SUNY Albany (2016–2020).
+      Thesis: <em>Learning Graphs for Object Tracking and Counting</em>.
+    </li>
+    <li>
+      <strong>Yuezun Li</strong>, Ph.D., Computer Science, SUNY Albany (2015–2020), co-advised with Prof. Siwei Lyu.
+      Thesis: <em>Detecting and Protecting Against AI-Synthesis Faces</em>.
+      Current position: Assistant Professor, Ocean University of China.
+    </li>
+    <li>
+      <strong>Wenbo Li</strong>, Ph.D., Computer Science, SUNY Albany (2015–2019), co-advised with Prof. Siwei Lyu.
+      Thesis: <em>Pose-Based Human Activity Recognition: Past, Present and Future</em>.
+      Current position: Samsung Research, Mountain View, CA, USA.
+    </li>
+    <li>
+      <strong>Yueming Yang</strong>, Ph.D., Computer Science, SUNY Albany (2013–2016), co-advised with Prof. Siwei Lyu.
+      Thesis: <em>Efficient Large-Scale Photometric Reconstruction Using Divide-Conquer and Fusion</em>.
+      Current position: Assistant Professor, Baldwin Wallace University.
+    </li>
+    <li>
+      <strong>Xin Wang</strong>, Ph.D., Computer Science, SUNY Albany (2014–2015), co-advised with Prof. Siwei Lyu.
+      Thesis: <em>Topic Analysis and Application Using Nonnegative Matrix Factorization (NMF)</em>.
+      Current position: CuraCloud Corporation, Seattle, WA, USA.
+    </li>
+    <li>
+      <strong>Hadi Ghahremannezhad</strong>, Ph.D., NJIT (2021).
+    </li>
+    <li>
+      <strong>Mehrded Mizaei</strong>, Ph.D., Computer Science, SUNY Albany (2020).
+    </li>
+    <li>
+      <strong>Amanda Danko</strong>, Ph.D., Computer Science, SUNY Albany (2014–2015).
+    </li>
+  </ul>
 </div>
 
 <div class="alumni-section">
   <h2>Current Co-Advised Ph.D. Students / Committee Members</h2>
-  <div class="row g-4">
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Su Hu</h5>
-        <p>Ph.D. Student, SUNY Buffalo (2019–present)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Lipeng Ke</h5>
-        <p>Ph.D. Student, SUNY Albany (2015–2019) and SUNY Buffalo (2019–present)</p>
-        <p>Co-advised with Prof. Siwei Lyu</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Miley Yao</h5>
-        <p>Ph.D. Committee Member, SUNY Albany</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Sourav Dutta</h5>
-        <p>Ph.D. Committee Member, SUNY Albany</p>
-      </div>
-    </div>
-  </div>
+  <ul class="alumni-list">
+    <li>
+      <strong>Su Hu</strong>, Ph.D. Student, SUNY Buffalo (2019–present), co-advised with Prof. Siwei Lyu.
+    </li>
+    <li>
+      <strong>Lipeng Ke</strong>, Ph.D. Student, SUNY Albany (2015–2019) and SUNY Buffalo (2019–present), co-advised with Prof. Siwei Lyu.
+    </li>
+    <li>
+      <strong>Miley Yao</strong>, Ph.D. Committee Member, SUNY Albany.
+    </li>
+    <li>
+      <strong>Sourav Dutta</strong>, Ph.D. Committee Member, SUNY Albany.
+    </li>
+  </ul>
 </div>
 
 <div class="alumni-section">
   <h2>M.S. Graduates</h2>
-  <div class="row g-4">
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Nenhgui (Jonathan) Song</h5>
-        <p>M.S. Student, SUNY Albany (2017–2018)</p>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="alumni-card">
-        <h5>Jianting Wen</h5>
-        <p>M.S. Student, SUNY Albany (2011–2012)</p>
-      </div>
-    </div>
-  </div>
+  <ul class="alumni-list">
+    <li>
+      <strong>Nenhgui (Jonathan) Song</strong>, M.S. Student, SUNY Albany (2017–2018).
+    </li>
+    <li>
+      <strong>Jianting Wen</strong>, M.S. Student, SUNY Albany (2011–2012).
+    </li>
+  </ul>
 </div>
