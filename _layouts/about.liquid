@@ -5,6 +5,11 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
+        <img
+          src="{{ '/assets/img/UAlbanyMark.png' | relative_url }}"
+          alt="logo"
+          style="height: 1.2em; vertical-align: middle; margin-right: 0.35rem;"
+        >
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
