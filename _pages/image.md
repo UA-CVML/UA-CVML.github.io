@@ -4,7 +4,7 @@ title: PHOTOS
 description:
 permalink: /lab_photos/
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 <h3>2018 Lab Outing</h3>
 <div class="text-center mb-5">
