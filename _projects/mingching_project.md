@@ -6,7 +6,7 @@ img: assets/img/people/MingChingChang_19.jpg
 importance: 1
 category: Lab Co-directors
 related_publications: true
-redirect: https://tiffany9056.github.io/
+redirect: https://www.albany.edu/computer-science/faculty/ming-ching-chang
 ---
 
 Every project has a beautiful feature showcase page.
