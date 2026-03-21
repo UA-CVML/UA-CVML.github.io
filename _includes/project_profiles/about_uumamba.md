@@ -1,0 +1,3 @@
+UU-Mamba is an uncertainty-aware segmentation framework designed for reliable cardiovascular MRI analysis. It integrates the Mamba selective state space model into a U-Net–style architecture to capture both local anatomical features and long-range spatial dependencies with high computational efficiency. By incorporating uncertainty estimation into the training process, the model improves robustness and reliability, particularly in challenging anatomical regions, enabling more stable and clinically meaningful segmentation results.
+
+The paper can be accessed at: [UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation](https://arxiv.org/abs/2405.17496).

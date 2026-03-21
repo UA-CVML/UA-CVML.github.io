@@ -7,7 +7,24 @@ nav: true
 nav_order: 3
 
 profiles:
+# /_includes/project_profiles/
+  - align: left
+    image: project/logo_uumamba.png
+    content: project_profiles/about_uumamba.md
+    image_circular: false
+    more_info: >
+      UU-Mamba
+    redirect: https://github.com/tiffany9056/UU-Mamba
+
   - align: right
+    image: project/logo_intellicardiac.jpeg
+    content: project_profiles/about_intellicardiac.md
+    image_circular: false
+    more_info: >
+      IntelliCardiac
+    redirect: https://github.com/UA-CVML/IntelliCardiac
+
+  - align: left
     image: project/logo_rat.png
     content: project_profiles/about_rat.md
     image_circular: false
@@ -15,7 +32,7 @@ profiles:
       Rat Seizure Detection &amp; Classification
     redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
 
-  - align: left
+  - align: right
     image: project/logo_skeleton.png
     content: project_profiles/about_skeleton.md
     image_circular: false
@@ -23,7 +40,7 @@ profiles:
       Skeleton-based Human Action Recognition
     redirect:
 
-  - align: right
+  - align: left
     image:
     content: project_profiles/about_cimd.md
     image_circular: false
@@ -31,7 +48,7 @@ profiles:
       Challenging Image Manipulation Detection (CIMD)
     redirect: https://arxiv.org/pdf/2311.14218
     
-  - align: left
+  - align: right
     image:
     content: project_profiles/about_multitracking.md
     image_circular: false
@@ -39,7 +56,7 @@ profiles:
       UA-DETRAC Benchmark Dataset for Multi-Object Tracking
     redirect:
 
-  - align: right
+  - align: left
     image: project/logo_obtracking.png
     content: project_profiles/about_obtracking.md
     image_circular: false

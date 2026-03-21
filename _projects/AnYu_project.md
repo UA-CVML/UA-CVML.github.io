@@ -6,8 +6,8 @@ img: assets/img/people/anyu57635309-8bf0-4890-a4ee-6e04a859d337.png
 importance: 2
 category: Lab Members
 related_publications: true
-redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
-github: https://github.com/CrazyGeG
+redirect: https://github.com/CrazyGeG
+github: # https://github.com/CrazyGeG
 ---
 
 Every project has a beautiful feature showcase page.
