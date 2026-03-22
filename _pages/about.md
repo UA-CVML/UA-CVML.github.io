@@ -42,6 +42,7 @@ join_team:
 
 ---
 
+<!-- Introduction text -->
 [The Computer Vision and Machine Learning (CVML) Laboratory](https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab), housed within [the University at Albany's College of Nanotechnology, Science, and Engineering](https://www.albany.edu/cnse), is a leading research group specializing in computer vision, machine learning, and video analytics. 
 
 Our research is dedicated to advancing the mathematical foundations and algorithmic development of machine learning and deep learning, particularly for the analysis of visual imagery. Through interdisciplinary collaboration, we drive forward comprehensive initiatives, leveraging expertise from diverse domains.

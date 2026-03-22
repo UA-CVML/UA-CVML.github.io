@@ -7,6 +7,7 @@ importance: 1
 category: Lab Co-directors
 related_publications: true
 redirect: https://www.albany.edu/computer-science/faculty/ming-ching-chang
+github: https://github.com/mingching #https://mingching.github.io
 ---
 
 Every project has a beautiful feature showcase page.
