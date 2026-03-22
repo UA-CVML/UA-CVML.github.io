@@ -7,7 +7,6 @@ The website is built using the **al-folio** Jekyll theme. For additional setup a
 - [al-folio GitHub Repository](https://github.com/alshedivat/al-folio/tree/main)
 - [al-folio Quick Start Guide](https://github.com/alshedivat/al-folio/blob/main/QUICKSTART.md)
 
----
 ## Repository Structure
 The website is built using Jekyll with the al-folio theme.
 Important folders are listed below.
@@ -37,7 +36,6 @@ ua-cvml.github.io
 └── _config.yml                  # Website configuration file
 ```
 
----
 ## 1. Updating Site Settings
 Open the file:
 ```
@@ -56,7 +54,6 @@ Notes:
 - url – Main website URL.
 - baseurl – Leave this empty. Do not delete this field.
 
----
 ## 2. Updating the Homepage
 The homepage content is controlled by:
 ```
@@ -70,7 +67,6 @@ You can modify:
   (Publications are automatically selected from: `_bibliography/papers.bib`.  
   A paper will appear on the homepage if it includes: `selected = {true}`)
 
----
 ## 3. Adding a New Lab Member
 The **Lab member cards** is located at:
 ```
@@ -107,7 +103,6 @@ Explanation of fields:
 - redirect – External link opened when clicking the member card (optional).
 - github – Member’s GitHub profile (optional).
 
----
 ## 4. Adding Publications
 The **Publications page** is located at:
 ```
@@ -135,7 +130,6 @@ Optional fields:
 - bibtex_show = {true} → Display the BibTeX entry on the site.
 - preview = {} → Display a preview image for the publication (Preview images should be stored in: `/assets/img/publication_preview/`).
 
----
 ## 5. Adding Projects
 The **Projects page** is located at:
 ```
@@ -157,7 +151,6 @@ Explanation:
 - content – Project description file stored in: `_includes/project_profiles/`
 - redirect – Optional link to the project repository or website.
 
----
 ## 6. Adding Alumni
 The **Alumni page** is located at:
 ```
@@ -165,7 +158,6 @@ _pages/alumni.md
 ```
 Add new alumni entries directly in this file.
 
----
 ## 7. Adding Photos
 Images used in the website gallery are located in:
 ```
@@ -173,13 +165,11 @@ _pages/image.md
 ```
 Photos should be stored in the `assets/img/` directory.
 
----
 ## 8. Other Edit
 Theme color: Edit `_sass/_themes.scss`
 Social media links: Edit `_data/socials.yml`
 _sass/_components.scss
 
----
 ## 9. Notes for Future Maintainers
 - Always place images inside the assets/img/ directory.
 - Maintain consistent formatting when adding members or publications.
@@ -190,13 +180,10 @@ View Site (5 min)
 3. Wait for the  Actions tab → All workflows "pages-build-deployment" workflow to complete (look for a green checkmark, ~45 seconds)
 4. Visit https://ua-cvml.github.io in your browser
 
----
 ## 10. Deploying with GitHub Pages
-
 The UA-CVML website is hosted with **GitHub Pages**. After changes are pushed to the repository, GitHub will automatically rebuild and deploy the website.
 
 ### Steps to deploy
-
 1. Save all file changes.
 2. Commit the changes:
    ```bash
