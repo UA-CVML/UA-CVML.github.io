@@ -165,10 +165,11 @@ _pages/image.md
 ```
 Photos should be stored in the `assets/img/` directory.
 
-## 8. Other Edit
-Theme color: Edit `_sass/_themes.scss`
-Social media links: Edit `_data/socials.yml`
-_sass/_components.scss
+## 8. Other Edits
+- **Theme colors**: Edit `_sass/_themes.scss`
+- **Social media links**: Edit `_data/socials.yml`
+- **Component styles**: Edit `_sass/_components.scss`  
+  This file defines the styles for reusable components such as cards, profiles, projects, and CV sections.
 
 ## 9. Notes for Future Maintainers
 - Always place images inside the assets/img/ directory.
