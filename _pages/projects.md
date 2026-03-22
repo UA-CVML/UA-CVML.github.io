@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 
 profiles:
-# /_includes/project_profiles/
+  # /_includes/project_profiles/
   - align: left
     image: project/logo_uumamba.png
     content: project_profiles/about_uumamba.md
@@ -47,7 +47,7 @@ profiles:
     more_info: >
       Challenging Image Manipulation Detection (CIMD)
     redirect: https://arxiv.org/pdf/2311.14218
-    
+
   - align: right
     image:
     content: project_profiles/about_multitracking.md
@@ -63,5 +63,4 @@ profiles:
     more_info: >
       Single & Multiple Object Tracking
     redirect:
-
 ---

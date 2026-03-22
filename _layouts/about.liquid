@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <img
-          src="{{ '/assets/img/UAlbanyMark2.png' | relative_url }}"
+          src="{{ '/assets/img/UAlbanyMark.png' | relative_url }}"
           alt="logo"
           style="height: 1.6em; vertical-align: bottom; margin-right: 0.35rem;"
         >
@@ -63,7 +63,7 @@ layout: default
 
     <!-- Join the Team -->
     {% if page.join_team and page.join_team.enabled %}
-      <h2>{{ page.join_team.title | default: "Join the Team" }}</h2>
+      <h2>{{ page.join_team.title | default: 'Join the Team' }}</h2>
       <div class="join-team">
         {{ page.join_team.text | markdownify }}
       </div>

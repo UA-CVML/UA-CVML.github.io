@@ -3,7 +3,7 @@ layout: page
 title: Abhineet Pandey
 description: PhD student
 img: #assets/img/7.jpg
-redirect: 
+redirect:
 importance: 3
 category: Lab Members
 ---

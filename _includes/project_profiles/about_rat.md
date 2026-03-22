@@ -4,5 +4,5 @@ Utilizing rodent models for epilepsy research offers a pathway to discovering mo
 
 This research aims to introduce an AI-powered method for the quantitative analysis of rodent behaviors, including the classification of epilepsy stages. By employing advanced deep learning and computer vision technologies, we created an automated system for detecting and recognizing seizures in animals. A novel hybrid technique, merging model-based and data-driven approaches, was crafted to automate the classification of epilepsy stages from video footage.
 
-This investigation validates the practicality of using video analysis for detecting and classifying seizure stages in rodent models of temporal lobe seizures, offering a consistent and quantitative way to study rodent behavior. 
+This investigation validates the practicality of using video analysis for detecting and classifying seizure stages in rodent models of temporal lobe seizures, offering a consistent and quantitative way to study rodent behavior.
 This could potentially aid further behavioral studies in animals, such as those related to depression and anxiety. In the future, we plan to include and share a public dataset with the research community.
