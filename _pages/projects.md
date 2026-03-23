@@ -32,6 +32,14 @@ profiles:
       Rat Seizure Detection &amp; Classification
     redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
 
+  - align: left
+    image: project/logo_airmonitor.png
+    content: project_profiles/about_airquality.md
+    image_circular: false
+    more_info: >
+      Air Quality Monitoring and Mapping 
+    redirect: /assets/pdf/project_airmonitor.pdf
+
   - align: right
     image: project/logo_skeleton.png
     content: project_profiles/about_skeleton.md
