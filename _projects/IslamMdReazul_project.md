@@ -3,9 +3,11 @@ layout: page
 title: Md. Reazul Islam
 description: PhD student, Computer Science
 img:
-redirect:
-importance: 4
+importance: 5
 category: Lab Members
+related_publications: true
+redirect: https://mdreazulislam.info/
+github:
 ---
 
 Every project has a beautiful feature showcase page.
