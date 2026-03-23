@@ -46,7 +46,7 @@ profiles:
     image_circular: false
     more_info: >
       Skeleton-based Human Action Recognition
-    redirect: /assets/pdf/project_airmonitor2.pdf
+    redirect:
 
   - align: right
     image:
