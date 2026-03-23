@@ -75,6 +75,11 @@ ninja.data = [{
           description: "Postdoctoral Associate",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ChuanboHu_project/";
+            },},{id: "projects-md-reazul-islam",
+          title: 'Md. Reazul Islam',
+          description: "PhD student, Computer Science",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/IslamMdReazul_project/";
             },},{id: "projects-rui-wang",
           title: 'Rui Wang',
           description: "PhD candidate, Computer Science",
