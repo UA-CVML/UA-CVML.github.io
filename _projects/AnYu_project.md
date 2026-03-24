@@ -8,6 +8,8 @@ category: Lab Members
 related_publications: true
 redirect: https://github.com/CrazyGeG
 github: # https://github.com/CrazyGeG
+google_scholar: https://scholar.google.com/citations?user=try-RpMAAAAJ&hl=en
+LinkedIn: https://www.linkedin.com/in/an-yu-487a91121/
 ---
 
 Every project has a beautiful feature showcase page.
