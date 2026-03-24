@@ -30,7 +30,7 @@ profiles:
     image_circular: false
     more_info: >
       Rat Seizure Detection &amp; Classification
-    redirect: https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-projects
+    redirect: https://github.com/UA-CVML/RatSeizure
 
   - align: right
     image: project/logo_airmonitor.png
