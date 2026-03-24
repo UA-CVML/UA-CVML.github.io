@@ -6,8 +6,10 @@ img: assets/img/people/tingtsai97caf364-4567-4507-8450-519798ec2da0.png
 importance: 1
 category: Lab Members
 related_publications: true
-redirect: https://github.com/tiffany9056 # https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
+redirect: https://tiffany9056.github.io/ # https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab#tab-team
 github: https://github.com/tiffany9056
+google_scholar: https://scholar.google.com/citations?user=ceWsfr8AAAAJ
+linkedin: https://www.linkedin.com/in/ting-yu-tsai-100243157/
 ---
 
 Every project has a beautiful feature showcase page.
