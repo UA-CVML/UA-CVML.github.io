@@ -3,3 +3,5 @@ In this project, we present an AI–IoT system for real-time air pollution monit
 Our main technical contribution is a stacked ensemble model that combines XGBoost, CatBoost, and Gradient Boosting as base learners with logistic regression as the meta-learner. Using 5,999 sensor records collected across urban locations, our approach achieved the best performance among the tested models, reaching approximately 98.8% accuracy for multiclass AQI prediction and 99.85% for binary safe-versus-harmful classification.
 
 Overall, we demonstrate that integrating sensing, cloud analytics, visualization, alerts, and waste-route optimization within a unified framework can enable real-time pollution monitoring, improve public awareness, and support smarter environmental decision-making. We also note that future work should address challenges related to scalability, sensor calibration, privacy, and large-scale deployment.
+
+Read our research paper, [AI-IoT Driven Real-Time Air Pollution Monitoring and Mapping for Sustainable Urban Planning](/assets/pdf/project_airmonitor.pdf). 

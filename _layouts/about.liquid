@@ -77,6 +77,52 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+
+
+    <!-- Projects Preview -->
+    {% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
+    {% if projects_page and projects_page.profiles %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
+      </h2>
+
+      <div class="projects-preview">
+        {% for project in projects_page.profiles limit: 4 %}
+          <div class="project-preview-item">
+            {% if project.redirect %}
+              <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer">
+            {% endif %}
+
+            {% if project.image %}
+              {% assign project_image_path = project.image | prepend: 'assets/img/' %}
+              {%
+                include figure.liquid
+                loading="eager"
+                path=project_image_path
+                class="project-preview-img"
+                alt=project.more_info
+                cache_bust=true
+              %}
+            {% endif %}
+
+            <div class="project-preview-text">
+              <div class="project-preview-title">{{ project.more_info }}</div>
+            </div>
+            {% if project.short_description %}
+              <div class="project-preview-desc">{{ project.short_description }}</div>
+            {% endif %}
+            {% if project.redirect %}
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+
+
+
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
