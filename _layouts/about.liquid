@@ -86,7 +86,7 @@ layout: default
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
 
-      <div class="row row-cols-3 row-cols-md-2 g-4">
+      <div class="col">
         {% for project in projects_page.profiles limit: 10 %}
           <div class="col">
             {% if project.redirect %}
