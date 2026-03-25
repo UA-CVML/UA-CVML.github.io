@@ -23,7 +23,7 @@ profiles:
     image_circular: false
     more_info: >
       IntelliCardiac
-    short_description: This is a project about IntelliCardiac
+    short_description: This is a project about IntelliCardiacThis is a project about IntelliCardiacThis is a project about IntelliCardiacThis is a project about IntelliCardiacThis is a project about IntelliCardiac
     redirect: https://github.com/UA-CVML/IntelliCardiac
 
   - align: left
