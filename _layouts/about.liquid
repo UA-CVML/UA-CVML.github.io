@@ -93,7 +93,7 @@ layout: default
               <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer" class="project-card-link">
             {% endif %}
 
-            <div class="card h-100 hoverable">
+            <div class="card h-100 hoverable project-preview-card">
               {% if project.image %}
                 {% assign project_image_path = project.image | prepend: 'assets/img/' %}
                 {%
@@ -118,10 +118,10 @@ layout: default
               {% endif %}
 
               <div class="card-body">
-                <h2 class="card-title h5">{{ project.more_info }}</h2>
+                <h2 class="card-title h5 project-preview-title">{{ project.more_info }}</h2>
 
                 {% if project.short_description %}
-                  <p class="card-text">{{ project.short_description }}</p>
+                  <p class="card-text project-preview-desc">{{ project.short_description }}</p>
                 {% endif %}
               </div>
             </div>
