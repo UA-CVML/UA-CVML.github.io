@@ -68,7 +68,9 @@ layout: default
         {{ page.join_team.text | markdownify }}
       </div>
     {% endif %}
+
     <hr>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -77,15 +79,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-
+    <hr>
 
     <!-- Projects Preview -->
     {% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
     {% if projects_page and projects_page.profiles %}
       <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Selected Projects</a>
       </h2>
-
       <div class="projects-preview">
         {% for project in projects_page.profiles limit: 10 %}
           <div class="col">
@@ -118,7 +119,7 @@ layout: default
               {% endif %}
 
               <div class="card-body">
-                <h2 class="card-title h5 project-preview-title">{{ project.more_info }}</h2>
+                <h2 class="card-title project-preview-title">{{ project.more_info }}</h2>
 
                 {% if project.short_description %}
                   <p class="card-text project-preview-desc">{{ project.short_description }}</p>
@@ -133,9 +134,6 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-
-
-
 
     <!-- Social -->
     {% if page.social %}
