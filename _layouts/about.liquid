@@ -87,7 +87,7 @@ layout: default
       </h2>
 
       <div class="projects-preview">
-        {% for project in projects_page.profiles limit: 4 %}
+        {% for project in projects_page.profiles limit: 10 %}
           <div class="project-preview-item">
             {% if project.redirect %}
               <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer">
@@ -104,13 +104,13 @@ layout: default
                 cache_bust=true
               %}
             {% endif %}
-            {% if project.short_description %}
-              <div class="project-preview-desc">{{ project.short_description }}</div>
-            {% endif %}
+
             <div class="project-preview-text">
               <div class="project-preview-title">{{ project.more_info }}</div>
             </div>
-
+            {% if project.short_description %}
+              <div class="project-preview-desc">{{ project.short_description }}</div>
+            {% endif %}
             {% if project.redirect %}
               </a>
             {% endif %}

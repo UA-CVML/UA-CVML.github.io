@@ -14,6 +14,7 @@ profiles:
     image_circular: false
     more_info: >
       UU-Mamba
+    short_description: This is a project about UUmamba
     redirect: https://github.com/tiffany9056/UU-Mamba
 
   - align: right
@@ -22,6 +23,7 @@ profiles:
     image_circular: false
     more_info: >
       IntelliCardiac
+    short_description: This is a project about IntelliCardiac
     redirect: https://github.com/UA-CVML/IntelliCardiac
 
   - align: left
@@ -30,6 +32,7 @@ profiles:
     image_circular: false
     more_info: >
       Rat Seizure Detection &amp; Classification
+    short_description: This is a project about Rat localization
     redirect: https://github.com/UA-CVML/RatSeizure
 
   - align: right
@@ -38,6 +41,7 @@ profiles:
     image_circular: false
     more_info: >
       Air Quality Monitoring and Mapping 
+    short_description: This is a project about Air Quality Monitoring and Mapping 
     redirect: https://github.com/UA-CVML/AI-IoT-Driven-Real-Time-Air-Pollution-Monitoring-and-Mapping-for-Sustainable-Urban-Planning
 
   - align: left
@@ -46,6 +50,7 @@ profiles:
     image_circular: false
     more_info: >
       Skeleton-based Human Action Recognition
+    short_description: This is a project about Skeleton-based Human Action Recognition
     redirect:
 
   - align: right
