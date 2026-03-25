@@ -87,9 +87,9 @@ layout: default
       <h2>
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Selected Projects</a>
       </h2>
-      <div class="projects-preview">
+      <<div class="col">>
         {% for project in projects_page.profiles limit: 10 %}
-          <div class="col">
+          <div class="projects-preview">
             {% if project.redirect %}
               <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer" class="project-card-link">
             {% endif %}
