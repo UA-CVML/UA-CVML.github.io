@@ -86,40 +86,46 @@ layout: default
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
 
-      <div class="projects-preview">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
         {% for project in projects_page.profiles limit: 10 %}
-          <div class="project-preview-item">
+          <div class="col">
             {% if project.redirect %}
-              <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer">
+              <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer" class="project-card-link">
             {% endif %}
 
-            {% if project.image %}
-              {% assign project_image_path = project.image | prepend: 'assets/img/' %}
-              {%
-                include figure.liquid
-                loading="eager"
-                path=project_image_path
-                class="project-preview-img"
-                alt=project.more_info
-                cache_bust=true
-              %}
-            {% else %}
-              {%
-                include figure.liquid
-                loading="eager"
-                path="/assets/img/project/default_project.png"
-                class="project-preview-img"
-                alt=project.more_info
-                cache_bust=true
-              %}
-            {% endif %}
+            <div class="card h-100 hoverable project-preview-card">
+              {% if project.image %}
+                {% assign project_image_path = project.image | prepend: 'assets/img/' %}
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path=project_image_path
+                  sizes="250px"
+                  alt=project.more_info
+                  class="card-img-top project-preview-img"
+                  cache_bust=true
+                %}
+              {% else %}
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path="/assets/img/project/default_project.png"
+                  sizes="250px"
+                  alt=project.more_info
+                  class="card-img-top project-preview-img"
+                  cache_bust=true
+                %}
+              {% endif %}
 
-            <div class="project-preview-text">
-              <div class="project-preview-title">{{ project.more_info }}</div>
+              <div class="card-body">
+                <h2 class="card-title h5">{{ project.more_info }}</h2>
+
+                {% if project.short_description %}
+                  <p class="card-text">{{ project.short_description }}</p>
+                {% endif %}
+              </div>
             </div>
-            {% if project.short_description %}
-              <div class="project-preview-desc">{{ project.short_description }}</div>
-            {% endif %}
+
             {% if project.redirect %}
               </a>
             {% endif %}
@@ -127,7 +133,6 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-
 
 
 
