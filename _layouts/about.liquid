@@ -82,14 +82,16 @@ layout: default
     <hr>
 
     <!-- Projects Preview -->
+    <!-- Projects Preview -->
     {% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
     {% if projects_page and projects_page.profiles %}
       <h2>
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Selected Projects</a>
       </h2>
-      <div class="col">
+
+      <div class="row row-cols-1 row-cols-md-3">
         {% for project in projects_page.profiles limit: 10 %}
-          <div class="projects-preview">
+          <div class="col mb-4">
             {% if project.redirect %}
               <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer" class="project-card-link">
             {% endif %}
