@@ -103,6 +103,14 @@ layout: default
                 alt=project.more_info
                 cache_bust=true
               %}
+            {% else %}
+              {%
+                include figure.liquid
+                loading="eager"
+                path="ㄥassets/img/project/default_project.png"
+                class="project-preview-img"
+                cache_bust=true
+              %}
             {% endif %}
 
             <div class="project-preview-text">
