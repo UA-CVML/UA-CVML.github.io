@@ -337,7 +337,7 @@ ul.task-list input[type="checkbox"] {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  // background-color: #ffffff;
 }
 
 .project-preview-img {
@@ -354,6 +354,7 @@ ul.task-list input[type="checkbox"] {
   flex-direction: column;
   flex-grow: 1;
   overflow: hidden;
+  color: var(--global-text-color-light) !important;
 }
 
 .project-preview-title {
