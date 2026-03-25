@@ -86,7 +86,7 @@ layout: default
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
 
-      <div class="col">
+      <div class="projects-preview">
         {% for project in projects_page.profiles limit: 10 %}
           <div class="col">
             {% if project.redirect %}
@@ -102,7 +102,7 @@ layout: default
                   path=project_image_path
                   sizes="250px"
                   alt=project.more_info
-                  class="card-img-top project-preview-img"
+                  class="card-img-top"
                   cache_bust=true
                 %}
               {% else %}
@@ -112,7 +112,7 @@ layout: default
                   path="/assets/img/project/default_project.png"
                   sizes="250px"
                   alt=project.more_info
-                  class="card-img-top project-preview-img"
+                  class="card-img-top"
                   cache_bust=true
                 %}
               {% endif %}

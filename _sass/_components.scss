@@ -288,12 +288,12 @@ ul.task-list input[type="checkbox"] {
 
 
 
-// .projects-preview {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-//   gap: 1rem;
-//   margin-top: 1rem;
-// }
+.projects-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
 // .project-preview-item {
 //   border: 1px solid var(--global-divider-color);
