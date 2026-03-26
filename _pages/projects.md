@@ -24,7 +24,7 @@ profiles:
     image_circular: false
     more_info: >
       IntelliCardiac
-    short_description: A full-stack medical imaging platform that integrates segmentation and classification to enable accurate cardiac diagnosis.
+    short_description: A medical imaging platform that integrates segmentation and classification for accurate cardiac diagnosis.
     selected: true
     redirect: https://github.com/UA-CVML/IntelliCardiac
 
@@ -34,7 +34,7 @@ profiles:
     image_circular: false
     more_info: >
       Rat Seizure Detection &amp; Classification
-    short_description: Automatically detects and classifies seizure behaviors in rat models to enable scalable and quantitative epilepsy research.
+    short_description: Localizes and classifies seizure behaviors in rat models to support epilepsy research.
     selected: true
     redirect: https://github.com/UA-CVML/RatSeizure
 
@@ -44,7 +44,7 @@ profiles:
     image_circular: false
     more_info: >
       Air Quality Monitoring and Mapping 
-    short_description: Real-time environmental monitoring system that predict air quality, detect pollution hotspots, and support data-driven urban planning.
+    short_description: Predict air quality, detect pollution hotspots, and support data-driven urban planning.
     selected: true 
     redirect: https://github.com/UA-CVML/AI-IoT-Driven-Real-Time-Air-Pollution-Monitoring-and-Mapping-for-Sustainable-Urban-Planning
 
@@ -66,7 +66,7 @@ profiles:
       Challenging Image Manipulation Detection (CIMD)
     selected: true
     redirect: https://arxiv.org/pdf/2311.14218
-    short_description: A benchmark dataset and detection framework to identify challenging image manipulations, enabling more accurate and robust digital forensics.
+    short_description: A benchmark dataset and framework for detecting challenging image manipulations in digital forensics.
 
   # - align: left
   - image:
@@ -76,7 +76,7 @@ profiles:
       UA-DETRAC Benchmark Dataset for Multi-Object Tracking
     selected: true
     redirect:
-    short_description: UA-DETRAC is a large-scale benchmark dataset for evaluating multi-object detection and tracking in real-world traffic videos.
+    short_description: A benchmark dataset for evaluating multi-object detection and tracking in real-world traffic videos.
 
   # - align: right
   - image: project/logo_obtracking.png
@@ -86,5 +86,5 @@ profiles:
       Single & Multiple Object Tracking
     selected: false
     redirect:
-    short_description: Object Tracking develops hypergraph-based methods for tracking single and multiple objects in video sequences.
+    short_description: Object Tracking develops hypergraph-based methods for tracking objects in video sequences.
 ---
