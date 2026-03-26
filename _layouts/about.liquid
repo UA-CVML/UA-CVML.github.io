@@ -61,6 +61,8 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <hr>
+    
     <!-- Join the Team -->
     {% if page.join_team and page.join_team.enabled %}
       <h2>{{ page.join_team.title | default: 'Join the Team' }}</h2>
@@ -69,10 +71,9 @@ layout: default
       </div>
     {% endif %}
 
-    <hr>
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr>
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
