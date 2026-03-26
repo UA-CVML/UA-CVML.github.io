@@ -24,7 +24,7 @@ profiles:
     image_circular: false
     more_info: >
       IntelliCardiac
-    short_description: A medical imaging platform that integrates segmentation and classification for accurate cardiac diagnosis.
+    short_description: A medical imaging platform that integrates segmentation and classification for cardiac diagnosis.
     selected: true
     redirect: https://github.com/UA-CVML/IntelliCardiac
 
