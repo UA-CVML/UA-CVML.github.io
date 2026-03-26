@@ -74,7 +74,7 @@ profiles:
     image_circular: false
     more_info: >
       UA-DETRAC Benchmark Dataset for Multi-Object Tracking
-    selected: true
+    selected: false
     redirect:
     short_description: A benchmark dataset for evaluating multi-object detection and tracking in real-world traffic videos.
 
