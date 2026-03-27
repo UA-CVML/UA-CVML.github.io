@@ -6,8 +6,8 @@ img: assets/img/people/anyu57635309-8bf0-4890-a4ee-6e04a859d337.png
 importance: 2
 category: Lab Members
 related_publications: true
-redirect: https://github.com/CrazyGeG
-github: # https://github.com/CrazyGeG
+redirect: https://crazygeg.github.io/an-yu.github.io
+github: https://github.com/CrazyGeG
 google_scholar: https://scholar.google.com/citations?user=try-RpMAAAAJ&hl=en
 linkedin: https://www.linkedin.com/in/an-yu-487a91121/
 ---
