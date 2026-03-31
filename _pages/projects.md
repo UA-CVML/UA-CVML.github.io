@@ -8,25 +8,14 @@ nav_order: 3
 
 profiles:
   # /_includes/project_profiles/
-  # - align: left
-  - image: project/logo_uumamba.png
-    content: project_profiles/about_uumamba.md
-    image_circular: false
-    more_info: >
-      UU-Mamba
-    short_description: Uncertainty-aware segmentation framework achieve robust and efficient cardiovascular segmentation.
-    selected: true
-    redirect: https://github.com/tiffany9056/UU-Mamba
 
-  # - align: right
-  - image: project/logo_intellicardiac.jpeg
-    content: project_profiles/about_intellicardiac.md
+    # align: right
+  - image: project/logo_rediprune.png
+    content: project_profiles/about_radiprune.md
     image_circular: false
     more_info: >
-      IntelliCardiac
-    short_description: A medical imaging platform that integrates segmentation and classification for cardiac diagnosis.
-    selected: true
-    redirect: https://github.com/UA-CVML/IntelliCardiac
+      ReDiPrune
+    redirect: https://github.com/UA-CVML/ReDiPrune
 
   # - align: left
   - image: project/logo_rat.png
@@ -47,6 +36,26 @@ profiles:
     short_description: Predict air quality, detect pollution hotspots, and support data-driven urban planning.
     selected: true 
     redirect: https://github.com/UA-CVML/AI-IoT-Driven-Real-Time-Air-Pollution-Monitoring-and-Mapping-for-Sustainable-Urban-Planning
+
+  # - align: left
+  - image: project/logo_uumamba.png
+    content: project_profiles/about_uumamba.md
+    image_circular: false
+    more_info: >
+      UU-Mamba
+    short_description: Uncertainty-aware segmentation framework achieve robust and efficient cardiovascular segmentation.
+    selected: true
+    redirect: https://github.com/tiffany9056/UU-Mamba
+
+  # - align: right
+  - image: project/logo_intellicardiac.jpeg
+    content: project_profiles/about_intellicardiac.md
+    image_circular: false
+    more_info: >
+      IntelliCardiac
+    short_description: A medical imaging platform that integrates segmentation and classification for cardiac diagnosis.
+    selected: true
+    redirect: https://github.com/UA-CVML/IntelliCardiac
 
   # - align: left
   - image: project/logo_skeleton.png
