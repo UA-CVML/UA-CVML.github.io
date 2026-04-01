@@ -7,9 +7,7 @@ importance: 1
 category: Lab Co-directors
 related_publications: true
 redirect: https://mingchingchang-cvmllab-ualbany.github.io/
-github: https://github.com/mingching #https://mingching.github.io
-scholar_userid: a3-Gl8YAAAAJ
-dblp_url: https://dblp.uni-trier.de/pid/21/4361.html
+google_scholar: https://scholar.google.com/citations?user=a3-Gl8YAAAAJ
 ---
 
 Every project has a beautiful feature showcase page.
