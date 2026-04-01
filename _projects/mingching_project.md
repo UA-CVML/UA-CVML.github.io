@@ -6,8 +6,10 @@ img: assets/img/people/MingChingChang_19.jpg
 importance: 1
 category: Lab Co-directors
 related_publications: true
-redirect: https://www.albany.edu/computer-science/faculty/ming-ching-chang
+redirect: https://mingchingchang-cvmllab-ualbany.github.io/
 github: https://github.com/mingching #https://mingching.github.io
+scholar_userid: a3-Gl8YAAAAJ
+dblp_url: https://dblp.uni-trier.de/pid/21/4361.html
 ---
 
 Every project has a beautiful feature showcase page.
