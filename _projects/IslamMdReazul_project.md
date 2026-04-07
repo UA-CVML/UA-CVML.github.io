@@ -2,7 +2,7 @@
 layout: page
 title: Md. Reazul Islam
 description: PhD student, Computer Science
-img: assets/img/people/Reaz_Sir-removebg-preview.png
+img: assets/img/people/Reaz_Sir-removebg-preview2.png
 importance: 5
 category: Lab Members
 related_publications: true
