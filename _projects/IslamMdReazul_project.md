@@ -2,12 +2,14 @@
 layout: page
 title: Md. Reazul Islam
 description: PhD student, Computer Science
-img:
+img: assets/img/people/Reaz_Sir-removebg-preview.png
 importance: 5
 category: Lab Members
 related_publications: true
 redirect: https://mdreazulislam.info/
-github:
+github: 
+google_scholar: https://scholar.google.com/citations?user=qvP0kzkAAAAJ
+linkedin: https://www.linkedin.com/in/md-reazul-islam-reaz/
 ---
 
 Every project has a beautiful feature showcase page.
