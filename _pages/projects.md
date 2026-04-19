@@ -38,7 +38,7 @@ profiles:
     redirect: https://github.com/UA-CVML/AI-IoT-Driven-Real-Time-Air-Pollution-Monitoring-and-Mapping-for-Sustainable-Urban-Planning
 
   # - align: left
-  - image: project/logo_uumamba.gif
+  - image: project/logo_uumamba2.gif
     content: project_profiles/about_uumamba.md
     image_circular: false
     more_info: >
