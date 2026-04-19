@@ -18,7 +18,7 @@ profiles:
     redirect: https://github.com/UA-CVML/ReDiPrune
 
   # - align: left
-  - image: project/logo_rat.png
+  - image: project/logo_Ratseizure.mp4
     content: project_profiles/about_rat.md
     image_circular: false
     more_info: >
