@@ -48,7 +48,7 @@ profiles:
     redirect: https://github.com/tiffany9056/UU-Mamba
 
   # - align: right
-  - image: project/logo_intellicardiac.jpeg
+  - image: project/logo_intellicardiac.gif
     content: project_profiles/about_intellicardiac.md
     image_circular: false
     more_info: >
